@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void testButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("KKO");
+            testPictureBox.Load(@"c:\temp\rainbow.bmp");
         }
     }
 }
